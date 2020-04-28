@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Drive to MSU DJB</string>
+    <string name="drive_to_montclair_state_university">Drive to Montclair State University</string>
+    <string name="drive">Drive!</string>
+    <string name="want_to_get_to_montclair_state_university_n_click_the_button_below_to_open_google_maps_n_it_will_open_with_directions_to_the_school">Want to get to Montclair State University?\n Click the button below to open Google Maps\n It will open with directions to the school!</string>
+    <string name="montclair_state_university_logo">Montclair State University Logo</string>
+</resources>

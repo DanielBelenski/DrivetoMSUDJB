@@ -2,12 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/linearLayout"
+    android:id="@+id/constraint"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EA9999"
     tools:context=".MainActivity">
 
+    <!-- Text view to display the app purpose/name -->
     <TextView
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
@@ -23,6 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Image View displaying one of the Universities logos -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -35,12 +37,13 @@
         app:layout_constraintTop_toBottomOf="@+id/titleTextView"
         app:srcCompat="@drawable/unnamed" />
 
+    <!-- Description of app and its function -->
     <TextView
         android:id="@+id/descriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/want_to_get_to_montclair_state_university_n_click_the_button_below_to_open_google_maps_n_it_will_open_with_directions_to_the_school"
+        android:text="@string/want_to_get_to_montclair_state_university"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintBottom_toTopOf="@+id/toMapsButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,6 +51,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
+    <!-- Button to open google maps -->
     <Button
         android:id="@+id/toMapsButton"
         android:layout_width="393dp"
@@ -55,7 +59,7 @@
         android:backgroundTint="#EA2020"
         android:onClick="startMaps"
         android:text="@string/drive"
-        android:textColor="#F8F1F1"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
